@@ -1,0 +1,39 @@
+{
+  "_hinweis": "Aktiven Filter unter 'active' eintragen. Mehrere subject_keywords werden mit AND verknüpft. date_after: nur E-Mails ab diesem Datum (YYYY-MM-DD), leer = alle.",
+
+  "active": "standard",
+
+  "profiles": {
+    "standard": {
+      "description": "Alle SocialTalents-Bewerbungen für Engel & Völkers",
+      "sender_domain": "appatini.at",
+      "subject_keywords": ["Bewerbung von", "Immobilienmakler", "Engel"],
+      "date_after": "",
+      "batch_size": 10
+    },
+
+    "hamburg": {
+      "description": "Nur Hamburg-Bewerbungen",
+      "sender_domain": "appatini.at",
+      "subject_keywords": ["Bewerbung von", "Immobilienmakler Hamburg", "Engel"],
+      "date_after": "",
+      "batch_size": 10
+    },
+
+    "frankfurt": {
+      "description": "Nur Frankfurt-Bewerbungen",
+      "sender_domain": "appatini.at",
+      "subject_keywords": ["Bewerbung von", "Immobilienmakler Frankfurt", "Engel"],
+      "date_after": "",
+      "batch_size": 10
+    },
+
+    "neu_seit_heute": {
+      "description": "Nur heutige Bewerbungen, max. 5",
+      "sender_domain": "appatini.at",
+      "subject_keywords": ["Bewerbung von", "Immobilienmakler", "Engel"],
+      "date_after": "2026-03-27",
+      "batch_size": 5
+    }
+  }
+}

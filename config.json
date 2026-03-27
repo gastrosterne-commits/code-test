@@ -1,0 +1,27 @@
+{
+  "imap": {
+    "server": "",
+    "port": 993,
+    "use_ssl": true,
+    "username": "",
+    "password": "",
+    "mailbox": "INBOX"
+  },
+  "email_filter": {
+    "sender_domain": "appatini.at",
+    "subject_keywords": ["Bewerbung von", "Immobilienmakler", "Engel"]
+  },
+  "form": {
+    "url": "https://www.engelvoelkers.com/de/de/immobilienmakler-werden/immobilienmakler-bewerbung-sea",
+    "headless": false,
+    "slow_mo_ms": 50
+  },
+  "paths": {
+    "processed_emails_db": "processed_emails.json",
+    "download_dir": "downloads",
+    "log_file": "automation.log"
+  },
+  "browser": {
+    "timeout_ms": 30000
+  }
+}
