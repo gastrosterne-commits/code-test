@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.engelvoelkers.com)",
+      "Bash(pip --version)",
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/playwright install:*)",
+      "Bash(venv/Scripts/python explore_form.py)",
+      "Bash(venv/Scripts/python test_run.py)",
+      "Bash(claude --version)",
+      "Bash(venv/Scripts/python main.py)",
+      "Bash(venv/Scripts/python -c \":*)"
+    ]
+  }
+}
